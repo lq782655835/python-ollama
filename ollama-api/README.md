@@ -1,6 +1,6 @@
 # ollama-api
 
-验证ollama的python库
+使用本地ollama，通过python库访问ollama的api
 https://ywctech.net/ml-ai/ollama-first-try/
 
 ## 安装
