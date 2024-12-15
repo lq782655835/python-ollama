@@ -1,6 +1,6 @@
 # 使用Docker跑起ollama服务
 
-相当于在本地跑起ollama服务，然后通过api访问。用Docker
+相当于在本地跑起ollama服务，然后通过api访问。用Docker。https://hub.docker.com/r/ollama/ollama
 
 # 启动ollama基础服务
 ```
