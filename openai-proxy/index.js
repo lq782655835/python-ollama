@@ -1,7 +1,10 @@
 import OpenAI from 'openai';
+import dotenv from 'dotenv';
+dotenv.config({ override: true }); // 强制重新加载.env文件
 
+console.log(process.env.OPENAI_API_KEY);
 const client = new OpenAI({
-  apiKey: process.env['OPENAI_API_KEY'],
+  apiKey: process.env.OPENAI_API_KEY,
   baseURL: 'https://vercel-openai-proxy-git-main-lq782655835s-projects.vercel.app/openai/v1',
 });
 

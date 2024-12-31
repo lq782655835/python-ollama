@@ -1,0 +1,12 @@
+{
+  "name": "python-ollama",
+  "version": "1.0.0",
+  "description": "## FastAPI 示例",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "openai": "node openai-proxy/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
